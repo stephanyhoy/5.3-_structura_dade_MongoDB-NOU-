@@ -1,0 +1,245 @@
+[{
+  "_id": {
+    "$oid": "660afe28b409e225dd398854"
+  },
+  "nombre_cliente": "Carlos García",
+  "direccion": "Vilafranca 32, ático, puerta 2",
+  "ciudad": "Barcelona",
+  "codigo_postal": "08024",
+  "telefono": 612345678,
+  "correo_electronico": "carlosgarcia@gmail.com",
+  "fecha_registro": {
+    "$date": "2024-07-31T22:00:00.000Z"
+  },
+  "cliente_recomendador": {
+    "$oid": "660b1c36b409e225dd3988b0"
+  },
+  "fecha_hora_venta": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  },
+  "vendedor_gafas": {
+    "$oid": "660b1697b409e225dd398894"
+  }
+},
+{
+  "_id": {
+    "$oid": "660afe90b409e225dd398856"
+  },
+  "nombre_cliente": "Cristina López",
+  "direccion": "Travessera de Dalt 18, 3ro, puerta 4ta",
+  "ciudad": "Barcelona",
+  "codigo_postal": "08024",
+  "telefono": 612345679,
+  "correo_electronico": "cristinalopez@gmail.com",
+  "fecha_registro": {
+    "$date": "2024-09-30T22:00:00.000Z"
+  },
+  "cliente_recomendador": {
+    "$oid": "660b1c52b409e225dd3988b1"
+  },
+  "vendedor_gafas": {
+    "$oid": "660b1697b409e225dd398894"
+  },
+  "fecha_hora_venta": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "660aff5fb409e225dd398859"
+  },
+  "nombre_cliente": "César Gutierrez",
+  "direccion": "Grant de Gracia 25, 1ro, puerta 2",
+  "ciudad": "Barcelona",
+  "codigo_postal": "08024",
+  "telefono": 612345672,
+  "correo_electronico": "cesargutierrez@gmail.com",
+  "fecha_registro": {
+    "$date": "2024-10-31T23:00:00.000Z"
+  },
+  "cliente_recomendador": {
+    "$oid": "660afe28b409e225dd398854"
+  },
+  "vendedor_gafas": {
+    "$oid": "660b1697b409e225dd398894"
+  },
+  "fecha_hora_venta": "11/01/2024 15:00"
+},
+{
+  "_id": {
+    "$oid": "660afff1b409e225dd39885b"
+  },
+  "nombre_cliente": "María Sánchez",
+  "direccion": "Torrent de les flors, 1ro, puerta 3",
+  "ciudad": "Barcelona",
+  "codigo_postal": "08024",
+  "telefono": 612345689,
+  "correo_electronico": "mariasanchez@gmail.com",
+  "fecha_registro": "15/01/2024",
+  "cliente_recomendador": {
+    "$oid": "660aff5fb409e225dd398859"
+  },
+  "vendedor_gafas": {
+    "$oid": "660b17efb409e225dd3988ae"
+  },
+  "fecha_hora_venta": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "660b005fb409e225dd39885d"
+  },
+  "nombre_cliente": "Cecilia Trinidad",
+  "direccion": "Asturias 32 Bis, 3ro, puerta 2",
+  "ciudad": "Barcelona",
+  "codigo_postal": "08024",
+  "telefono": 612534568,
+  "correo_electronico": "ceciliatrinidad@gmail.com",
+  "fecha_registro": {
+    "$date": "2024-09-30T22:00:00.000Z"
+  },
+  "cliente_recomendador": {
+    "$oid": "660afff1b409e225dd39885b"
+  },
+  "vendedor_gafas": {
+    "$oid": "660b17efb409e225dd3988ae"
+  },
+  "fecha_hora_venta": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "660b00f9b409e225dd398860"
+  },
+  "nombre_cliente": "Rocio Mercedes",
+  "direccion": "Marti 35, 2ro, puerta 3ra",
+  "ciudad": "Barcelona",
+  "codigo_postal": "08024",
+  "telefono": 678345679,
+  "correo_electronico": "rociomercedes@gmail.com",
+  "fecha_registro": {
+    "$date": "2024-10-31T23:00:00.000Z"
+  },
+  "cliente_recomendador": {
+    "$oid": "660afe90b409e225dd398856"
+  },
+  "vendedor_gafas": {
+    "$oid": "660b17efb409e225dd3988ae"
+  },
+  "fecha_hora_venta": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "660b0148b409e225dd398862"
+  },
+  "nombre_cliente": "Rocio Huapaya",
+  "direccion": "Providencia 10, 2ro, puerta 3ra",
+  "ciudad": "Barcelona",
+  "codigo_postal": "08024",
+  "telefono": 678345679,
+  "correo_electronico": "rociohuapaya@gmail.com",
+  "fecha_registro": "16/01/2024",
+  "cliente_recomendador": {
+    "$oid": "660b00f9b409e225dd398860"
+  },
+  "vendedor_gafas": {
+    "$oid": "660b17efb409e225dd3988ae"
+  },
+  "fecha_hora_venta": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "660b01adb409e225dd398864"
+  },
+  "nombre_cliente": "Magaly Farfán",
+  "direccion": "Providencia 15, 2ro, puerta 3ra",
+  "ciudad": "Barcelona",
+  "codigo_postal": "08024",
+  "telefono": 666345679,
+  "correo_electronico": "magalyfarfan@gmail.com",
+  "fecha_registro": "18/01/2024",
+  "cliente_recomendador": {
+    "$oid": "660b0148b409e225dd398862"
+  },
+  "vendedor_gafas": {
+    "$oid": "660b17efb409e225dd3988ae"
+  },
+  "fecha_hora_venta": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "660b0224b409e225dd398866"
+  },
+  "nombre_cliente": "Miguel López",
+  "direccion": "Travessera de Gracia 15, 2ro, puerta 3ra",
+  "ciudad": "Barcelona",
+  "codigo_postal": "08024",
+  "telefono": 665345679,
+  "correo_electronico": "miguellopez@gmail.com",
+  "fecha_registro": "18/01/2024",
+  "cliente_recomendador": {
+    "$oid": "660b01adb409e225dd398864"
+  },
+  "vendedor_gafas": {
+    "$oid": "660b16b9b409e225dd398896"
+  },
+  "fecha_hora_venta": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "660b0313b409e225dd398868"
+  },
+  "nombre_cliente": "Lourdes Ruiz",
+  "direccion": "Travessera de Gracia 40, 3ro, puerta 5ta",
+  "ciudad": "Barcelona",
+  "codigo_postal": "08024",
+  "telefono": 675345679,
+  "correo_electronico": "lourdesruiz@gmail.com",
+  "fecha_registro": "19/01/2024",
+  "cliente_recomendador": {
+    "$oid": "660b0224b409e225dd398866"
+  },
+  "vendedor_gafas": {
+    "$oid": "660b16b9b409e225dd398896"
+  },
+  "fecha_hora_venta": {
+    "$timestamp": {
+      "t": 0,
+      "i": 0
+    }
+  }
+}]

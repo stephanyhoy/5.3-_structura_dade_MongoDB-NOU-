@@ -1,4 +1,4 @@
-# EEntrega 5.3: Estructura de dades MongoDB (NOU)
+# Entrega 5.3: Estructura de dades MongoDB (NOU)
 
 Descripció
 

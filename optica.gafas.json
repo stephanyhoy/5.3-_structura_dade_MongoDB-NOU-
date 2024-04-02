@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "660b13b6b409e225dd398884"
+  },
+  "marca": "Gucci",
+  "graduacion_vidrio_izq": "+2.00",
+  "graduacion_vidrio_der": "+1.00",
+  "tipo_montura": "Metálica",
+  "color_montura": "Negro",
+  "color_vidrios": "Gris",
+  "precio": 150,
+  "proveedor_id": {
+    "$oid": "660b100fb409e225dd39887c"
+  },
+  "vendedor_id": "",
+  "fecha_venta": ""
+},
+{
+  "_id": {
+    "$oid": "660b14a5b409e225dd398889"
+  },
+  "marca": "Calvin Klein",
+  "graduacion_vidrio_izq": "+1.00",
+  "graduacion_vidrio_der": "+2.00",
+  "tipo_montura": "Pasta",
+  "color_montura": "Azul",
+  "color_vidrios": "Transparentes",
+  "precio": 180,
+  "proveedor_id": {
+    "$oid": "660b10d0b409e225dd39887e"
+  },
+  "vendedor_id": "",
+  "fecha_venta": ""
+},
+{
+  "_id": {
+    "$oid": "660b1548b409e225dd39888d"
+  },
+  "marca": "Carolina Herrera",
+  "graduacion_vidrio_izq": "+0.75",
+  "graduacion_vidrio_der": "+0.075",
+  "tipo_montura": "Flotantes",
+  "color_montura": "Dorada",
+  "color_vidrios": "Marrones",
+  "precio": 199,
+  "proveedor_id": {
+    "$oid": "660b1160b409e225dd398880"
+  },
+  "vendedor_id": "",
+  "fecha_venta": ""
+}]
