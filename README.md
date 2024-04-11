@@ -1,22 +1,28 @@
+# Estructura de Datos MongoDB 
+Nivel 1: Desarrollo de estructuras de bases de datos MongoDB para la gestión de una óptica
+
+El repositorio contine las colecciones para cada uno de los ejercicios.
+
 # Entrega 5.3: Estructura de dades MongoDB (NOU)
 
-Descripció
+Descripción
 
-Crearem diferents bases de dades en MongoDB.
+Crearemos diferentes bases de datos en MongoDB.
 
-Òptica
-Una òptica, anomenada “Cul d'Ampolla”, vol informatitzar la gestió dels clients/es i vendes d'ulleres.
+Óptica
+Una óptica, denominada “Culo de Botella”, quiere informatizar la gestión de los clientes/se y ventas de ojeras.
 
-En primer lloc, l'òptica vol saber quin és el proveïdor de cadascuna de les ulleres. En concret vol saber de cada proveïdor: El nom, l'adreça (carrer, número, pis, porta, ciutat, codi postal i país), telèfon, fax, NIF.
+En primer lugar, la óptica quiere saber cuál es el proveedor de cada una de las ojeras. En concreto quiere saber de cada proveedor: El nombre, la dirección (calle, número, piso, puerta, ciudad, código postal y país), teléfono, fax, NIF.
 
-De les ulleres es vol saber: La marca, la graduació de cadascun dels vidres, el tipus de muntura (flotant, pasta o metàl·lica), el color de la muntura, el color de cada vidre i el preu.
+De las ojeras se quiere saber: La marca, la graduación de cada uno de los vidrios, el tipo de montura (flotante, pasta o metálica), el color de la montura, el color de cada vidrio y el precio.
 
-Dels clients/es vol emmagatzemar: El nom, l'adreça postal, el telèfon, el correu electrònic, la data de registre.
-Quan arriba un/a client/a nou, emmagatzemar el/la client/a que li ha recomanat l'establiment (sempre que algú li hagi recomanat).
-El nostre sistema haurà d’indicar qui ha sigut l’empleat/da que ha venut cada ullera. Defineix quin dia/hora es realitza la venda.
+De los clientes/se quiere almacenar: El nombre, la dirección postal, el teléfono, el correo electrónico, la fecha de registro.
+Cuando llega uno/a cliente/a nuez, almacenar el/la cliente/a que le ha recomendado el establecimiento (siempre que alguien le haya recomendado).
+Nuestro sistema tendrá que indicar quién ha sido el empleado/da que ha vendido cada ojera. Define qué día/hora se realiza la venta.
 
-- Exercici 1
-  Imagina que tenim la següent interfície gràfica, des del punt de vista d’un client de l'Òptica. Com dissenyaries la base de dades que facilités la informació?
+- Ejercicio 1
+Imagina que tenemos la siguiente interfaz gráfica, desde el punto de vista de un cliente de la Óptica. ¿Cómo diseñarías la base de datos que facilitara la información?
 
-- Exercici 2
-  I si el punt de vista fos de la interfície fossin les ulleres?
+- Ejercicio 2
+¿Y si el punto de vista  de la interfaz fueran las gafas?
+ 
