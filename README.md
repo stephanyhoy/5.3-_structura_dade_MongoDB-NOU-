@@ -1,28 +1,28 @@
-# Estructura de Datos MongoDB 
-Nivel 1: Desarrollo de estructuras de bases de datos MongoDB para la gestión de una óptica
+# Óptica - Base de Datos en MongoDB
 
-El repositorio contine las colecciones para cada uno de los ejercicios.
+Este proyecto describe el diseño y la implementación de una base de datos en MongoDB para gestionar los clientes, proveedores, empleados y las ventas de una óptica llamada "Culo de Botella".
 
-# Entrega 5.3: Estructura de dades MongoDB (NOU)
+Descripción del Proyecto:
 
-Descripción
+La óptica necesita informatizar la gestión de los clientes, proveedores y ventas de gafas. La base de datos debe almacenar información relevante sobre cada una de estas entidades y sus relaciones.
 
-Crearemos diferentes bases de datos en MongoDB.
+| **Colecciones** |    **Atributos**                                                                                                |
+|-------------|----------------------------------------------------------------------------------------------|
+| Proveedores | Nombre, Dirección (calle, número, piso, puerta, ciudad, código postal, país), Teléfono, Fax, NIF |
+| Gafas       | Marca, Graduación de vidrios, Tipo de montura (flotante, pasta o metálica), Color de montura, Color de vidrios, Precio |
+| Clientes    | Nombre, Dirección postal, Teléfono, Correo electrónico, Fecha de registro, Cliente recomendador (si lo hay) |
+| Ventas      | Empleado que realizó la venta, Fecha y hora de la venta                                       |
 
-Óptica
-Una óptica, denominada “Culo de Botella”, quiere informatizar la gestión de los clientes/as y ventas de gafas.
 
-En primer lugar, la óptica quiere saber cuál es el proveedor de cada una de las ojeras. En concreto quiere saber de cada proveedor: El nombre, la dirección (calle, número, piso, puerta, ciudad, código postal y país), teléfono, fax, NIF.
+## Ejercicio 1
 
-De las ojeras se quiere saber: La marca, la graduación de cada uno de los vidrios, el tipo de montura (flotante, pasta o metálica), el color de la montura, el color de cada vidrio y el precio.
-
-De los clientes/as quiere almacenar: El nombre, la dirección postal, el teléfono, el correo electrónico, la fecha de registro.
-Cuando llega uno/a cliente/a nuevo/a, almacenar el/la cliente/a que le ha recomendado el establecimiento (siempre que alguien le haya recomendado).
-Nuestro sistema tendrá que indicar quién ha sido el empleado/a que ha vendido cada una de las gafas. Define qué día/hora se realiza la venta.
-
-- Ejercicio 1
 Imagina que tenemos la siguiente interfaz gráfica, desde el punto de vista de un cliente de la Óptica. ¿Cómo diseñarías la base de datos que facilitara la información?
 
-- Ejercicio 2
+![Interfaz gráfica](./Ejercicio1/imagen1PHP.jpg)
+
+
+## Ejercicio 2
+
 ¿Y si el punto de vista de la interfaz fueran las gafas?
- 
+
+![Interfaz gráfica](./Ejercicio2/imagen2PHP.jpg)
